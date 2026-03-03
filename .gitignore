@@ -12,6 +12,7 @@ desktop.ini
 .RData
 .Ruserdata
 *.Rproj.user/
+*.Rmd
 
 # ===============================
 # R Package Management (optional)
