@@ -1,0 +1,77 @@
+# ===============================
+# OS / System Files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# R Session Files
+# ===============================
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# ===============================
+# R Package Management (optional)
+# ===============================
+# Keep renv.lock if you use renv!
+renv/library/
+renv/staging/
+
+# ===============================
+# Python (in case of mixed tooling)
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# ===============================
+# Databases / Local Builds
+# ===============================
+*.db
+*.sqlite
+*.sqlite3
+
+# If your DB lives in data/
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# ===============================
+# Generated / Processed Data
+# ===============================
+data/processed/
+data/interim/
+data/tmp/
+
+# Optional: ignore all raw data if large
+# data/raw/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Reports / Temporary Outputs
+# ===============================
+reports/tmp/
+*.aux
+*.out
+*.toc
