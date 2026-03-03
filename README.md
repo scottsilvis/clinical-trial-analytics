@@ -85,29 +85,32 @@ Key variables:
 
 ```
 .
+├── README.md
+├── requirements.txt
 ├── data/
-│   ├── patients.csv
-│   ├── visits.csv
-│   ├── outcomes.csv
-│   ├── sites.csv
-│   └── notes.csv
+│   ├── patients.csv    # ignored
+│   ├── visits.csv      # ignored
+│   ├── outcomes.csv    # ignored
+│   ├── sites.csv       # ignored
+│   └── notes.csv       # ignored
 │
 ├── r/
-│   ├── 02_baseline_EDA.Rmd
-│   ├── 03_baseline_modeling.Rmd
-│   ├── 04_model_simplification.Rmd
-│   └── 05_early_on_treatment_modeling.Rmd
+│   ├── 01_load_to_sqlite.nb.html
+│   ├── 02_baseline_EDA.sqlite.nb.html
+│   ├── 03_baseline_modeling.nb.html
+│   ├── 04_model_simplification.nb.html
+│   └── 05_early_treatment_signal.nb.html
 |
-├── sql/
-│   ├── 01_sites.sql
-│   ├── 02_patients.sql
-│   ├── 03_visits.sql
-│   ├── 04_outcomes.sql
-│   └── 05_notes.sql
-│
-├── 01_load_to_sqlite.R
-├── README.md
-└── requirements.txt
+├── scripts/
+│   └── 01_load_to_sqlite.R
+|
+└── sql/
+    ├── 01_sites.sql
+    ├── 02_patients.sql
+    ├── 03_visits.sql
+    ├── 04_outcomes.sql
+    └── 05_notes.sql
+
 ```
 
 ---
